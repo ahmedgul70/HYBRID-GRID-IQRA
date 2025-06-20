@@ -1,0 +1,38 @@
+@startuml
+title Android App Class Diagram
+
+package "com.example.smartgrid_iqra_fyp" {
+
+  class MainActivity {
+    - usernameField: EditText
+    - passwordField: EditText
+    - loginButton: Button
+    - userRepository: UserRepository
+    --
+    + onCreate()
+    + onLoginClicked()
+  }
+
+  class User {
+    - id: String
+    - username: String
+    - password: String
+    --
+    + getId(): String
+    + getUsername(): String
+    + validatePassword(input: String): Boolean
+  }
+
+  class UserRepository {
+    - users: List<User>
+    --
+    + login(username: String, password: String): User
+    + getUser(id: String): User
+  }
+
+  LoginActivity --> UserRepository : uses
+  UserRepository --> User : manages
+
+}
+
+@enduml

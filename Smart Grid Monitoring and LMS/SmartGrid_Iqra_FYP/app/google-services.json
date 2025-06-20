@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "250765377798",
+    "firebase_url": "https://homeenergymeter-490cf-default-rtdb.firebaseio.com",
+    "project_id": "homeenergymeter-490cf",
+    "storage_bucket": "homeenergymeter-490cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250765377798:android:ba2bf4bfa9fda2600e5e87",
+        "android_client_info": {
+          "package_name": "com.example.homeenergymonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr2Bg3UMxGFU1sKfx3fgMq4adIsNV0HkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250765377798:android:2ca4f34619ee57f30e5e87",
+        "android_client_info": {
+          "package_name": "com.example.smartgrid_iqra_fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr2Bg3UMxGFU1sKfx3fgMq4adIsNV0HkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
